@@ -1,0 +1,91 @@
+html{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    padding: 0%;
+    margin: 0%;
+}
+
+.mainDiv{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.mapouter{
+    height: 100%;
+    width: 60%;
+    background-color: black;
+}
+
+.formDiv{
+    height: 100%;
+    width: 40%;
+}
+
+.myForm{
+  margin-left: 10%;
+  height: 70%;
+}
+
+.myForm H2{
+    color: rgb(162, 162, 162);
+}
+
+input{
+    width: 98.6%;
+    border-style: none none solid none;
+    border-color: rgb(212, 212, 212);
+    margin-bottom: 5%;
+    
+}
+
+::-webkit-input-placeholder{
+    text-align: left;
+    align-self: baseline;
+}
+
+:-moz-placeholder{
+    text-align: center;
+}
+
+input:focus{
+    outline: none;
+}
+
+.title{
+    font-size: 250%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+}
+
+.lastInput{
+    /* margin-top: 15%; */
+    height: 20%;
+}
+
+button{
+    margin-left: 30%;
+    width: 50%;
+    height: 7.5%;
+    border-radius: 50px;
+    background-color: black;
+    color: antiquewhite;
+    font-size: x-large;
+}
+
+::placeholder {
+    color: rgb(212, 212, 212);
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(212, 212, 212);
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgb(212, 212, 212);
+  }
